@@ -53,6 +53,22 @@ __环境__:__ubuntu16.04.4 LTS__
 
 ### 创建ROS程序包
 
+- __首先创建工作空间__
+
+  ![1583899785577](assets/1583899785577.png)
+
+  
+
+  ![1583899819772](assets/1583899819772.png)
+
+  
+
+- __创建功能包也就是程序包__
+
+  ![1583900141551](assets/1583900141551.png)
+
+  
+
 - `现在使用`catkin_create_pkg`命令来创建一个名为'beginner_tutorials'的新程序包，这个程序包依赖于std_msgs、roscpp和rospy`：
 
   ```shell
@@ -69,12 +85,19 @@ __环境__:__ubuntu16.04.4 LTS__
 
   
 
-  ### ROS的消息和ROS服务
+  
 
+  ### ROS的消息和ROS服务
+  
   - __定义介绍__
     - 消息： msg文件就是一个描述ROS中所使用消息类型的简单文本。它们会被用来生成不同语言的源代码
-    - 服务:一个srv文件描述一项服务。它包含两个部分：请求和响应
+  - 服务:一个srv文件描述一项服务。它包含两个部分：请求和响应
   - 具体学习<http://wiki.ros.org/cn/ROS/Tutorials/CreatingMsgAndSrv#Common_step_for_msg_and_srv>
 
   
 
+  ### roslaunch文件介绍
+
+  - [http://ttshun.com/2018/05/24/ROS%E5%AD%A6%E4%B9%A0%E4%B9%8Broslaunch/](http://ttshun.com/2018/05/24/ROS学习之roslaunch/)
+  
+  
